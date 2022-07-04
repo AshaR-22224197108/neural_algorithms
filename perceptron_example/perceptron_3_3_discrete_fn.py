@@ -28,8 +28,8 @@ def test_perceptron(final_out,X,w):
     return final_out
 
 #*---------------Training---------------------------------*/
-X = np.array([[1,1],[-0.5,1],[3,1],[-2,1],])
-new_input = np.array([[7,1],[-7,1],])#feed new inputs and see
+X = np.array([[2,2],[-0.75,2],[4,2],[-3,2],])
+new_input = np.array([[6,1],[-6,1],])#feed new inputs and see
 print ("Inputs", X)
 d = np.array([1,-1,1,-1])
 print ("Teacher values", d)
