@@ -8,7 +8,7 @@ print "Teacher values", d
 w= ([1,-1,0,0.5])
 print "initial values of weights", w
 c = 0.1
-for n in range(1,7):# Number of iterations  = 7
+for n in range(1,8):# Number of iterations  = 7
     for i, x in enumerate(X):
         net = np.dot(X[i],w)
         if net > 0:
